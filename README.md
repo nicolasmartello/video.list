@@ -1,7 +1,7 @@
 video-list
 ==============
 
-Basic example using Backbone - undescore - require - jquery - localSotrage
+Basic example using Backbone - undescore - require - jquery - localStorage
 
 For running a server use http-server (in nodejs)
 

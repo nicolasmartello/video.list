@@ -68,7 +68,7 @@ define(['jquery',
                 listMovies.fetch();
                 
                 listMovies.sort();
-
+                    console.log(listMovies.models);
                 this.listView.collectionMovies = listMovies;
 
                 this.$el.html(this.listView.render(page).$el);

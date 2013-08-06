@@ -30,10 +30,10 @@ define([
             	var compiledTemplate = _.template( Template );                                
 
 				var items = this.collectionMovies.pagination(pagesCount,currentPage);
-				
+				console.log('collectionMovies: ',this.collectionMovies.toJSON());
 				this.$el.html(compiledTemplate({
 	                
-	                movies: items//this.collectionMovies.toJSON()
+	                movies: this.collectionMovies.toJSON()
 
 	            }));
 
